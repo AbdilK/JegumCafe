@@ -1,0 +1,1037 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background: white;
+} 
+a { 
+  color: inherit; 
+  text-decoration: none;
+} 
+
+p {
+      font-size: 18px;
+      line-height: 25.6px;
+      color:white;
+}
+
+  .containorange .informations .info #black {
+    color:black;
+  }
+
+  .containblack .informations .info #white {
+    color:white;
+  }
+
+  .front-section .front-header {
+    color: #eb5e27;
+    font-size: 100px;
+    text-align: center;
+  }
+  .front-section-cafe .front-header {
+    color: #eb5e27;
+    font-size: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .front-section-kontakt .front-header {
+    color: #eb5e27;
+    font-size: 100px;
+    text-align: center;
+  }
+  .front-section-aktiviteter .front-header {
+    color: #eb5e27;
+    font-size: 100px;
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+  }
+
+  .menu-item-home{
+    display: flex !important;
+  }
+
+  .menu-item-object-book {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+.menu-item-object-opskrifter {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.menu-item-object-book a{
+  color: #000 !important;
+}
+
+.menu-item-type-taxonomy{
+  position: relative;
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: #000 !important;
+}
+
+.menu-item-type-taxonomy a{
+  color: #000 !important;
+}
+
+.menu-item-object-opskrifter a{
+  color: #000 !important;
+}
+
+
+.sub-menu{
+  position: absolute;
+}
+
+  
+  .navbar .logo {
+    margin: 10px 0 10px 5%;
+    width: 120px;
+    height: auto;
+  }
+
+  .navbar .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar .menu {
+    display: flex;
+    font-weight: 700;
+  }
+
+  .footer .kontakt a{
+    text-decoration: none;
+    color: #E3E6E8;
+  }
+
+  .footer .kontakt a:hover{
+    color: #eb5e27;
+  }
+  
+  .menu-item a {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 3vw;
+    font-size: 14px;
+    text-decoration: none;
+    color:#fff;
+  }
+  .menu li {
+    list-style-type: none;
+  }
+  
+  .navbar .toggel-btn {
+    display: none;
+  }
+  
+  .navbar a:hover {
+    color: #eb5e27 !important;
+  }
+  
+  
+  .navbar .navbar-others {
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .navbar-others label {
+    margin-right: 15px;
+  }
+  
+  .navbar .navbar-others .nav-icons {
+    display: flex;
+    color: #eb5e27;
+  }
+  
+  .navbar .navbar-others .icon {
+    margin-left: 15px;
+  }
+  
+  .navbar .navbar-others .facebook {
+    margin: 0 15px;
+  }
+  
+  .icon:hover {
+    color: #eb5e27;
+  }
+  
+  .icon:visited {
+    color: #eb5e27;
+  }
+  
+  .icon:active {
+    color: #eb5e27;
+  }
+
+  .front-section{
+    padding: 350px;
+	  background-image:  url("../SDG-17/images/jegumcover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .front-section img {
+      
+     /* Add the blur effect */
+     filter: blur(5px);
+     -webkit-filter: blur(5px);
+ 
+     /* Full height */
+     height: 100%;
+    
+  }
+
+  .front-section-koebmand{
+    padding: 200px;
+	  background-image:  url("../SDG-17/images/koebmand.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .front-section-cafe{
+    padding: 200px;
+	  background-image:  url("../SDG-17/images/cafe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .front-section-aktiviteter{
+    padding: 200px;
+	  background-image:  url("../SDG-17/images/aktivitetercover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+ 
+  .front-section-kontakt{
+    padding: 200px;
+	  background-image:  url("../SDG-17/images/kontakt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+ .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: #eb5e27;
+    font-weight: bold;
+    border: 3px solid black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .main-section{
+    padding: 250px 12%;
+	  background-color: white;
+  }
+
+  @media only screen and (max-width: 1120px) {
+    #nav .line {
+      height: 18px;
+    }
+    #nav .navbar-links {
+      margin-left: 0;
+    }
+    #nav .icon {
+      width: 20px;
+    }
+    #nav a {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 841px) {
+    .navbar .navbar-others .nav-icons {
+        display: none !important;
+      }
+    .justify {
+        width: 100%;
+        height: 450px;
+        top: 130px;
+        position: absolute;
+        display: none !important;
+        justify-content: center;
+        padding: 80px 0 0 0;
+        background: #24353F !important;
+        animation-name: toggleMenu;
+        animation-duration: 1s;
+    }
+    .show {
+        animation-name: toggleMenu;
+        animation-duration: 1s;
+    }
+    .end {
+        animation-name: toggleMenuEnd;
+        animation-duration: 1s;
+    }
+    @-webkit-keyframes toggleMenu {
+      from {
+        opacity: 0;
+        height: 50px;
+      }
+      to {
+        opacity: 1;
+        height: 450px;
+      }
+    }
+    @keyframes toggleMenu {
+      from {
+        opacity: 0;
+        height: 50px;
+      }
+      to {
+        opacity: 1;
+        height: 450px;
+      }
+    }
+    @-webkit-keyframes toggleMenuEnd {
+      from {
+        opacity: 1;
+        height: 450px;
+      }
+      to {
+        opacity: 0;
+        height: 50px;
+      }
+    }
+    @keyframes toggleMenuEnd {
+      from {
+        opacity: 1;
+        height: 450px;
+      }
+      to {
+        opacity: 0;
+        height: 50px;
+      }
+    }
+    .navbar-links {
+      flex-direction: column;
+      text-align: center;
+    }
+    .navbar-links a {
+      padding-bottom: 80px !important;
+      color: #EAEAEA !important;
+      font-size: 16px !important;
+    }
+    .toggel-btn {
+      display: flex !important;
+    }
+    .icon {
+      margin: 0 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 525px) {
+    .logo-img {
+      width: auto;
+      height: 75px;
+    }
+  }
+
+
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .containblack h2 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 35px;
+    
+  }
+
+  .containblack #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+  .containblack {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+  }
+
+  .containimage h2 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 35px;
+    
+  }
+
+  .containimage #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .containimage {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/koebmand.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containimage2 h2 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 35px;
+    
+  }
+
+  .containimage2 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+  
+  .containimage2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/udendors.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containimage3 h1 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    
+  }
+
+  .containimage3 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+  
+  .containimage3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/bordtennisrum.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containimage4 h1 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    
+  }
+
+  .containimage4 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+  
+  .containimage4 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/bordfodbold.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+  .containimage5 h1 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    
+  }
+
+  .containimage5 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+  
+  .containimage5 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/udendørskøje.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containimage6 h1 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    
+  }
+
+  .containimage7 h1 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    
+  }
+
+  .containimage6 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+  
+  .containimage6 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/minigolf.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containimage7 h2 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 35px;
+    
+  }
+
+  .containimage7 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .containimage7 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/hoppepudeaktivitet.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containimage8 h2 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 35px;
+    
+  }
+
+  .containimage8 #orangenumber {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .containimage8 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../SDG-17/images/vincover.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    height: 450px;
+  }
+
+  .containorange {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .containorange h2 {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: #eb5e27;
+    font-size: 35px;
+    
+  }
+
+  .containblack .btn {
+    margin-bottom: 80px;
+  }
+
+  .containorange .btn {
+    margin-bottom: 80px;
+  }
+  
+  .containblack .informations {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+  }
+
+  .containimage .informations {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+  }
+
+  .containorange .informations {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+  }
+  
+  .containblack .informations .info {
+    width: 700px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .containblack .informations .infoCafe {
+    width: 700px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .containblack .informations .infoAktivitet {
+    width: 700px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .containimage .informations .info {
+    width: 700px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+  }
+  .containorange .informations .info {
+    width: 700px;
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    color: black;
+  }
+
+  .containblack .informations .info-front {
+    width: 700px;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .containimage .informations .info-front {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+  }
+  
+  .website {
+    padding: 110px 0;
+  }
+  
+  .website .btn {
+    margin-top: 177px;
+  }
+  
+  .website h1 {
+    margin-bottom: 30px;
+  }
+  
+  .website .code-lang {
+    width: 27.5vw;
+    margin-right: 12.7%;
+  }
+  
+  .website-txt {
+    margin-left: 15%;
+  }
+       
+      @media only screen and (max-width: 780px) {
+       
+        .image {
+          margin: 20px auto 100px auto !important;
+        }
+        .flex-direction {
+          margin: 0;
+        }
+        .txt {
+          margin: 0 auto;
+        }
+        .informations {
+          flex-direction: row;
+        }
+        .informations .info {
+          margin: 80px 2vw !important;
+        }
+        .informations .info img {
+          width: 300px;
+        }
+        .contain .informations .info {
+          width: 80vw;
+        }
+
+        .informations .infoAktivitet {
+          margin: 80px 2vw !important;
+        }
+        .informations .infoinfoAktivitet img {
+          width: 300px;
+        }
+        .contain .informations .infoAktivitet {
+          width: 80vw;
+        }
+        .containblack .pdf-menu {
+          width: 40%;
+          display: flex;
+          justify-content: center;
+          padding: 0 15%;
+        }
+      }
+      
+      @media only screen and (max-width: 660px) {
+        .container {
+          justify-content: left;
+        }
+        .container .ui {
+          margin-right: 5%;
+        }
+        .txt {
+          width: 402px !important;
+          margin: 0 12%;
+        }
+      
+        .informations {
+          flex-direction: column;
+        }
+        .informations .info {
+          margin: 20px auto !important;
+        }
+      
+        .informations .infoAktivitet {
+          margin: 20px auto !important;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        
+        .containblack .informations .info {
+          width: auto;
+        }
+        .containorange .informations .info
+        {
+          width: auto;
+        }
+
+        .containblack .informations .infoAktivitet {
+          width: auto;
+        }
+        .containorange .informations .infoAktivitet
+        {
+          width: auto;
+        }
+        .containblack .informations .infoCafe {
+          width: auto;
+        }
+        .containorange .informations .infoCafe
+        {
+          width: auto;
+        }
+        .containblack h2
+        {
+          text-align: center;
+        }
+
+        .containblack .informations .infoAktivitet p {
+          text-align: center;
+          
+        }
+
+        .containblack img {
+          width: 350px;
+          height: auto;
+        }
+
+        .front-section-cafe .front-header {
+          font-size: 25px;
+          text-align: center;
+        }
+        .front-section-aktiviteter .front-header {
+          font-size: 25px;
+          text-align: center;
+        }
+
+        .front-section {
+          background-image: url("../SDG-17/images/jegumcover.png");
+          background-position: center center;
+          
+        }
+      }
+
+    .footer {
+        background: black;
+        height: 350px;
+        padding: 50px 12%;
+        color: #E3E6E8;
+      }
+      
+      .footer .line {
+        margin-top: 20px;
+        content: "";
+        background: #eb5e27;
+        height: 1px;
+        width: 320px;
+      }
+      
+      .footer .kontakt {
+        margin-top: 80px;
+      }
+      
+      .footer .kontakt h2 {
+        margin: 0 0 10px 0;
+      }
+      
+      .footer .kontakt b {
+        color: #EAEAEA;
+        font-size: 13px;
+      }
+      
+      .footer .footer-info {
+        display: flex;
+        margin-top: 50px !important;
+        justify-content: space-between;
+      }
+      
+      .footer .footer-info .mail {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .footer .footer-info .mail b {
+        padding-bottom: 10px;
+      }
+      
+      .footer .footer-info .social-medier {
+        display: flex;
+      }
+      
+      .footer .footer-info .social-medier .footer-icon {
+        display: flex;
+        align-items: flex-end;
+        height: 21px;
+        margin-left: 20px;
+      }
+      
+      .footer .footer-info .social-medier .footer-icon img {
+        padding: 0 8px;
+      }
+      
+      .footer .icon:hover {
+        opacity: 0.5;
+      }
+      
+      .footer .icon:visited {
+        opacity: 0.5;
+      }
+      
+      .footer .icon:active {
+        opacity: 0.5;
+      }
+      
+      @media only screen and (max-width: 1120px) {
+        .footer {
+          height: 450px !important;
+        }
+        .footer h1 {
+          font-size: 30px;
+          margin-bottom: 15px !important;
+        }
+        .line {
+          width: 90% !important;
+        }
+        .footer-info {
+          flex-direction: column;
+          height: 120px;
+        }
+      }
+      
+      @media only screen and (max-width: 660px) {
+        .footer {
+          height: 550px !important;
+        }
+        .footer h1 {
+          font-size: 25px;
+          margin-bottom: 15px !important;
+        }
+        .footer h2 {
+          font-size: 20px;
+        }
+        .footer b {
+          font-size: 14px !important;
+        }
+        .social-medier {
+          flex-direction: column;
+          justify-content: space-between;
+          height: 60px;
+          margin-top: 50px;
+        }
+        .social-medier .footer-icon {
+          margin-left: 0 !important;
+        }
+        .social-medier #first-icon {
+          padding-left: 0;
+        }
+        .footer-info {
+          height: 200px !important;
+        }
+      }
+      
+      @media only screen and (max-width: 378px) {
+        .footer {
+          padding: 50px 10% !important;
+          width: 80vw;
+        }
+      }
+    
+.info-sektion {
+	display: flex;
+}
+
+.containblack .informations .info h3 {
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
+
+
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+
+.bookButton {
+	box-shadow:inset 0px 3px 0px 0px #eb5e27;
+	background:linear-gradient(to bottom, #eb5e27 5%, #f58d48 100%);
+	background-color:#eb5e27;
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+  
+}
+.bookButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.bookButton:active {
+	position:relative;
+	top:1px;
+}
+
+.containimage6, .containimage4, .containimage3 .infoAktivitet h2 {
+  text-align: center;
+
+}
+
+
+ /* Footer styles */
+ 
